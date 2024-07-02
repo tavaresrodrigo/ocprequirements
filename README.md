@@ -20,8 +20,8 @@ Ensure that the following tools are installed on the machine where this script w
 Clone this repository and navigate to the directory:
 
 ```bash
-git clone https://github.com/your-username/ocp-pre-check.git
-cd ocp-pre-check
+git clone https://github.com/tavaresrodrigo/ocprequirements.git
+cd ocprequirements
 ```
 
 Run the script with the required parameters:
@@ -71,17 +71,6 @@ Ingress PTR DNS                 PASS
 API PTR DNS                     PASS
 ```
 
-## Author
+## Contribute
 
-- **Your Name**
-- Email: your.email@example.com
-- Date: 2024-07-01
-
-## Notes
-
-- Ensure that `nc` (netcat) and `dig` are installed on your system.
-- This script does not stop on failure but provides a summary report of all tests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Please open new issues or submit your PR if you want to contribute. 
